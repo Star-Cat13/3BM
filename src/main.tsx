@@ -1,7 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import {  createBrowserRouter, RouterProvider,} from "react-router-dom";
+<<<<<<< HEAD
+import './index.css'
+
+=======
+import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import './index.css'
 
 import Home from './pages/homepage.tsx';
@@ -35,12 +39,12 @@ const router = createBrowserRouter([
     path: "contact",
     element: <Contact />,
   }
-  
+
 ]);
 
+>>>>>>> f42c4baf85187fd7f5d2d9ebed876ebcf6844093
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    {/* <App /> */}
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>,
 )

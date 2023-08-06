@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: 'https://star-cat13.github.io/3BM/'
+  // base: '/'
 })
