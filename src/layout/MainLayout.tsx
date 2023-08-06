@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+// import React, { ReactNode } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
@@ -12,14 +12,14 @@ interface MainLayoutProps {
 function MainLayout({ children }: MainLayoutProps) {
     return (
         <div>
-            
+
             <div className="pagebody">
                 <Navbar />
                 <Header />
-                    <div>{children}</div>
+                <div>{children}</div>
                 <Footer />
             </div>
-            
+
         </div>
     );
 }
