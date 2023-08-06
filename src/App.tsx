@@ -1,12 +1,12 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
-import MainLayout from './layout/MainLayout'
+// import MainLayout from './layout/MainLayout'
 import Home from './pages/homepage'
 import './scripts/gallery.js'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
 

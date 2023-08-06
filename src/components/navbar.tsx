@@ -1,6 +1,6 @@
 import '../assets/navbar.css'
 import { Link } from 'react-router-dom'
-import React, { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 
 const Navbar = () => {
