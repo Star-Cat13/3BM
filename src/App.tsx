@@ -1,21 +1,19 @@
-<<<<<<< HEAD
 
 import './App.css'
-=======
-// import { useState } from 'react'
+
 import './App.css'
-// import MainLayout from './layout/MainLayout'
+
+import './App.css'
+
+
 import Home from './pages/homepage'
->>>>>>> f42c4baf85187fd7f5d2d9ebed876ebcf6844093
+
 import './scripts/gallery.js'
 import { openModal, closeModal, plusSlides, currentSlide } from './scripts/gallery.js';
 
 
 function App() {
-<<<<<<< HEAD
-=======
-  // const [count, setCount] = useState(0)
->>>>>>> f42c4baf85187fd7f5d2d9ebed876ebcf6844093
+
 
   return (
     <>

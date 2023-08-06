@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-<<<<<<< HEAD
+
 import './index.css'
 
-=======
+
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import './index.css'
 
@@ -42,7 +42,6 @@ const router = createBrowserRouter([
 
 ]);
 
->>>>>>> f42c4baf85187fd7f5d2d9ebed876ebcf6844093
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <App />
